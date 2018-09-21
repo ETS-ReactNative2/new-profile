@@ -8,6 +8,7 @@ a {
 }
 
 .navWrapper {
+  max-width: 1024px;
   z-index: 1;
   background-color: rgba(0,0,0, 0.4);
   height: 35px;
