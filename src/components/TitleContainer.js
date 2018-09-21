@@ -24,9 +24,11 @@ export default function TitleContainer(props){
     return (
       <div>
         <div id='home' className={styles.titleContainerWrapperMobile}>
-          <h3 className={styles.name}>Ted</h3>
-          <div className={styles.tedReading}>
-            <img src={scratch} width='200px'/>
+          <div className={styles.nameAndPic}>
+            <h3 className={styles.name}>Ted</h3>
+            <div className={styles.tedReading}>
+              <img src={scratch} width='200px'/>
+            </div>
           </div>
         </div>
       </div>

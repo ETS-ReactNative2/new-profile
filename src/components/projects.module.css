@@ -13,7 +13,10 @@ padding-bottom: 150px;
 }
 
 .projectsWrapper h1 {
-    font-family: 'Permanent Marker', cursive;
+  position: relative;
+  bottom: 20px;
+  font-size: 3rem;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .title {
