@@ -1,0 +1,39 @@
+.projectsWrapper {
+
+  color: white;
+  // background-attachment: fixed;
+background-image: url("./assets/sky.jpg");
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 40px 0 40px 0;
+padding-bottom: 150px;
+}
+
+.projectsWrapper h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.title {
+  padding: 0px 0 20px 0;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 95%;
+}
+
+.whiteline2 {
+  position: relative;
+  bottom: 100px;
+}

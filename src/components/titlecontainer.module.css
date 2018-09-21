@@ -1,0 +1,71 @@
+p, h3 {
+  margin: 0;
+}
+
+
+.titleContainerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  background-image: url('./assets/sky.jpg');
+  // background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4rem;
+}
+
+.titleContainerWrapperMobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  background-image: url('./assets/sky.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+.titleContainerWrapperMobile h3 {
+    font-size: 4rem;
+}
+
+.tedArrow {
+  display: flex;
+  margin-right: 45px;
+}
+.arrow {
+  position: relative;
+  bottom: 10px;
+  margin: 25px 0 0 20px;
+}
+.tedReading img {
+  width: 350px;
+}
+
+.name {
+margin-bottom: 50px;
+}
+
+
+.tedReading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/tedreading.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 200px;
+}

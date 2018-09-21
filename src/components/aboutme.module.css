@@ -1,0 +1,24 @@
+.aboutMeWrapper {
+  height: 100%;
+  color: #202020;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutMeWrapper h1{
+  color: #202020;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.whiteline {
+  position: relative;
+  top: -100px;
+}
+
+.aboutMeContent {
+  position: relative;
+  bottom: 65px;
+}

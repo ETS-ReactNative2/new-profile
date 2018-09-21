@@ -1,0 +1,50 @@
+.projectCardWrapper {
+  box-sizing: border-box;
+  height: 346px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+.cardContent {
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cardContent h3 {
+  margin-bottom: 10px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+.cardContent p {
+  color: #b8b8b8;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.cardText {
+  margin-bottom: 20px;
+}
+
+.cardImage {
+  box-sizing: border-box;
+  border: 2px solid white;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.cardImage img {
+  width: 100%;
+}

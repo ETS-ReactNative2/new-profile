@@ -1,0 +1,79 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navLinks {
+  width: 100%;
+}
+
+.navWrapper {
+  z-index: 1;
+  background-color: rgba(0,0,0, 0.4);
+  height: 35px;
+  width: 100%;
+  display: flex;
+  letter-spacing: 3px;
+  position: absolute;
+}
+
+.navLinkList {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinkList a {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  min-width: 100px;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.navLinkList a:hover {
+  cursor: pointer;
+  animation: fadeIn .7s linear;
+}
+
+.navDropdown {
+background-color: red;
+}
+
+.hamburger {
+  left: 10px;;
+  position: absolute;
+  top: 8px;
+  animation: fadeInHamburger 1.2s linear;
+}
+
+.burgerLine {
+  width: 30px;
+  background-color: white;
+  height: 3px;
+  margin-bottom: 3px;
+}
+
+@keyframes fadeInHamburger {
+  0% {
+    opacity: 0
+  }
+  100%{
+    opacity: 1
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    background-color: #191c21;
+    color: black;
+  }
+  100%{
+    color: white
+  }
+}
+
+.navWrapper ul {
+list-style: none;
+display: flex;
+}
