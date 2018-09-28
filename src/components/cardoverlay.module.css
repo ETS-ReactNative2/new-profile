@@ -1,0 +1,11 @@
+.cardOverlayWrapper {
+  position: relative;
+  z-index: 2;
+  bottom: 346px;
+  transition: all .2s ease-in-out;
+  height: 346px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
