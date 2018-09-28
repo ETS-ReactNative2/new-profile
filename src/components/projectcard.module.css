@@ -53,3 +53,24 @@
 .cardImage img {
   width: 100%;
 }
+
+.cardOverlay {
+  display:none;
+  position: relative;
+  z-index: 1;
+  bottom: 346px;
+  transition: all .2s ease-in-out;
+  height: 346px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cardOverlay:hover {
+  display: flex;
+}
+
+.cardContent:hover + .cardOverlay {
+  display: flex;
+}
