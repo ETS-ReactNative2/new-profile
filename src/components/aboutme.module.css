@@ -10,17 +10,8 @@
 }
 
 .aboutMeWrapper h1{
+  margin: 0;
   font-size: 2.8rem;
   color: #202020;
   font-family: 'Permanent Marker', cursive;
-}
-
-.whiteline {
-  position: relative;
-  top: -100px;
-}
-
-.aboutMeContent {
-  position: relative;
-  bottom: 65px;
 }

@@ -47,7 +47,6 @@ export default function Projects(){
 
   return(
     <div className={styles.projectsWrapper}>
-      <img className={styles.whiteline2} src={whiteline2} alt='white line'/>
       <a name='work'/>
       <div className={styles.title}>
         <h1>My Work : </h1>

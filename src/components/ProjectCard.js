@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './projectcard.module.css';
+import open from './assets/open.png'
 
 export default function ProjectCard(props){
   console.log(props.image[Object.keys(props.image)[0]]);
@@ -16,7 +17,9 @@ export default function ProjectCard(props){
         </div>
       </div>
       <div className={styles.cardOverlay}>
-
+        <div className={styles.overlayImage}>
+          <img src={open}/>
+        </div>
       </div>
 
       </a>

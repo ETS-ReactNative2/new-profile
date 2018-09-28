@@ -8,10 +8,7 @@ import whiteline2 from './assets/whiteline2.png'
 export default function Footer(){
   return(
     <div>
-      <img className={styles.whiteline2} src={whiteline2} alt='white line'/>
-
     <div className={styles.footerWrapper}>
-
       <h3>Contact:</h3>
       <a name='contact'/>
       <div className={styles.iconContainer}>

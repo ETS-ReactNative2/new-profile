@@ -1,8 +1,7 @@
 .footerWrapper {
   color: #202020;
   text-align: center;
-  height: 150px;
-  position: relative;
+  height: 200px;
   bottom: 50px;
 }
 
@@ -21,11 +20,6 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
-}
-
-.whiteline2 {
-  position: relative;
-  bottom: 40px;
 }
 
 .footerWrapper img {

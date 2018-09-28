@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from './aboutme.module.css';
-import whiteline from './assets/whiteline.png'
 
 export default function AboutMe() {
   return(
     <div id='aboutme' className={styles.aboutMeWrapper}>
-      <img className={styles.whiteline} src={whiteline} alt='white line'/>
       <div className={styles.aboutMeContent}>
         <h1>About Me :</h1>
         <h3>Hi, I'm Ted Leary.

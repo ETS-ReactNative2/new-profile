@@ -1,5 +1,4 @@
 .projectCardWrapper {
-  transition: all .2s ease-in-out;
   box-sizing: border-box;
   height: 346px;
   width: 300px;
@@ -7,10 +6,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   margin: 20px;
-}
-
-.projectCardWrapper:hover {
-  transform: scale(1.05);
+  overflow: hidden;
 }
 
 .cardContent {
@@ -56,15 +52,18 @@
 
 .cardOverlay {
   display:none;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
   position: relative;
   z-index: 1;
   bottom: 346px;
-  transition: all .2s ease-in-out;
-  height: 346px;
-  width: 300px;
+  height: 344px;
+  width: 298px;
   color: white;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
+  animation: fadeIn .5s ease;
 }
 
 .cardOverlay:hover {
@@ -73,4 +72,17 @@
 
 .cardContent:hover + .cardOverlay {
   display: flex;
+}
+
+.overlayImage img {
+  width: 50px;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
