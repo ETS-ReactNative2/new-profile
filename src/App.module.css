@@ -7,7 +7,7 @@ html {
 body {
   background-color: white;
   margin: auto;
-  max-width: 1020px;
   height: 100%;
+  width: 100vw;
   overflow: auto;
 }
