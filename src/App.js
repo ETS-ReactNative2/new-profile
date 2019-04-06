@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav.js'
 import TitleContainer from './components/TitleContainer.js';
-import AboutMe from './components/AboutMe.js';
 import Projects from './components/Projects.js';
 import Footer from './components/Footer.js';
 import styles from './App.module.css'
@@ -31,10 +30,10 @@ handleSize = () => {
 
   render() {
     return (
-      <div className="app-wrapper">
+      <div className={styles.appWrapper}>
         <Nav/>
         <TitleContainer windowSize={this.state.windowSize}/>
-        <AboutMe/>
+
         <Projects/>
       <Footer/>
       </div>

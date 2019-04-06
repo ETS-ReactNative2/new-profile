@@ -1,28 +1,22 @@
 .footerWrapper {
   color: #202020;
   text-align: center;
-  height: 200px;
-  bottom: 50px;
+  padding: 2em;
+  background-color: #F1F1F1;
 }
 
 .footerWrapper p {
   color: #202020;
 }
 
-.footerWrapper h3 {
-
-  font-family: 'Permanent Marker', cursive;
-  font-size: 2rem;
-  margin: 10px 0px 20px 0px;
-}
-
 .iconContainer {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .footerWrapper img {
+  padding: 0 1em;
   transition: all .2s ease-in-out;
 }
 

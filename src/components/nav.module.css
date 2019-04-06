@@ -9,12 +9,13 @@ a {
 
 .navWrapper {
   z-index: 2;
-  background-color: rgba(0,0,0, 0.4);
+  background-color: black;
   height: 35px;
   width: 100%;
   display: flex;
   letter-spacing: 3px;
   position: absolute;
+  max-width: 1170px;
 }
 
 .navLinkList {
@@ -33,7 +34,7 @@ a {
 
 .navLinkList a:hover {
   cursor: pointer;
-  animation: fadeIn .7s linear;
+text-decoration: underline;
 }
 
 .navDropdown {
@@ -63,7 +64,7 @@ background-color: red;
   }
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% {
     background-color: #191c21;
     color: black;
@@ -71,7 +72,7 @@ background-color: red;
   100%{
     color: white
   }
-}
+} */
 
 .navWrapper ul {
 list-style: none;

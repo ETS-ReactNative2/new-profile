@@ -1,4 +1,5 @@
 .projectCardWrapper {
+  position: relative;
   box-sizing: border-box;
   height: 346px;
   width: 300px;
@@ -6,7 +7,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   margin: 20px;
-  overflow: hidden;
+
 }
 
 .cardContent {
@@ -55,7 +56,8 @@
   justify-content: center;
   align-items: center;
   border: 1px solid white;
-  position: relative;
+  position: absolute;
+  top: 0px;
   z-index: 1;
   bottom: 346px;
   height: 344px;
@@ -76,6 +78,19 @@
 
 .overlayImage img {
   width: 50px;
+}
+
+.live {
+  color: #7CD714;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  border: 1px solid #7CD714;
+  border-radius: 2px;
 }
 
 @keyframes fadeIn {

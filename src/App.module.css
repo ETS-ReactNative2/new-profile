@@ -1,13 +1,17 @@
 html {
-  overflow: hidden;
-  height: 100%;
+  /* overflow: hidden;
+  height: 100%; */
   background-color: #0f1113;
 }
 
 body {
-  background-color: white;
+  background-color: black;
   margin: auto;
-  height: 100%;
-  width: 100vw;
-  overflow: auto;
+  /* height: 100%;
+  overflow: auto; */
+}
+
+.appWrapper {
+  margin: 0 auto;
+  max-width: 1170px;
 }

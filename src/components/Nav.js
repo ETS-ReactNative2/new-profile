@@ -57,7 +57,6 @@ if (this.state.windowSize > 560) {
       <div className={styles.navLinks}>
         <div className={styles.navLinkList}>
           <a href='#home'>Home</a>
-          <a href='#aboutme'>About Me</a>
           <a href='#work'>Work</a>
           <a href='#contact'>Contact</a>
         </div>

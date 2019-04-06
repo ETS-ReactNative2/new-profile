@@ -58,7 +58,6 @@ export default class NavDropdown extends Component {
       this.state.show && <div style={this.state.style} onTransitionEnd={this.transitionEnd}>
         <div className={styles.dropdownContainer}>
           <a href='#home'>Home</a>
-          <a href='#aboutme'>About Me</a>
           <a href='#work'>Work</a>
           <a href='#contact'>Contact</a>
 
