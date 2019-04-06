@@ -10,12 +10,12 @@ a {
 .navWrapper {
   z-index: 2;
   background-color: black;
-  height: 35px;
   width: 100%;
   display: flex;
   letter-spacing: 3px;
-  position: absolute;
+  position: fixed;
   max-width: 1170px;
+  padding: .2em;
 }
 
 .navLinkList {
@@ -34,7 +34,7 @@ a {
 
 .navLinkList a:hover {
   cursor: pointer;
-text-decoration: underline;
+transform: scale(1.05);
 }
 
 .navDropdown {
