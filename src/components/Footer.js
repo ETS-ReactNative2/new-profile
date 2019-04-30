@@ -3,13 +3,11 @@ import styles from './footer.module.css';
 import envelope from './assets/envelope.png';
 import github from './assets/github.png';
 import linkedin from './assets/linkedin.png';
-import whiteline2 from './assets/whiteline2.png'
 
 export default function Footer(){
   return(
     <div>
       <div className={styles.footerWrapper}>
-        
       <a name='contact'/>
       <div className={styles.iconContainer}>
         <div>

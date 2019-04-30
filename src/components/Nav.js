@@ -4,8 +4,6 @@ import NavDropdown from './NavDropdown';
 
 import { Link } from 'react-router'
 
-console.log(styles);
-
 export default class Nav extends Component {
   constructor(props){
     super(props)
@@ -32,7 +30,6 @@ export default class Nav extends Component {
 
 
   handleSize = () => {
-    console.log(window.innerWidth);
     this.setState({
       windowSize: window.innerWidth
     })

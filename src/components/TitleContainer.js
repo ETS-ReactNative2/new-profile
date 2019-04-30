@@ -4,7 +4,6 @@ import arrow from './assets/arrow.png';
 import scratch from './assets/scratchbackground.png'
 
 export default function TitleContainer(props){
-  console.log(props);
   if (props.windowSize > 560) {
     return(
       <div id='home' className={styles.titleContainerWrapper}>
